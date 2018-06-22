@@ -1,1 +1,3 @@
 # EQM
+
+Still Under Construction... Android App to manage the attendance of members in a church meeting. The idea began when I became the secretary of the men's organization. So I found a problem, it wasn't actually a problem, although it could be improved. We must keep control of who's attending the meetings, therefore, to do it by writing down names and always keep an eye on who came to the church in the last 3 months is very difficult. So I'm building this app to bring me all those informations without unnecessary efforts, and by the way, show some charts about the data I collect. It's almost finished, just need to create some charts left, and make translation using the strings.xml
