@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.softpeach.www.eqm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".br.com.softpeach.www.eqm.screens.MainActivity"
+            android:theme="@style/fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".br.com.softpeach.www.eqm.screens.DashboardActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.AddElderActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.SearchActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.ProfileActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.AddMeetingActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.RegisteredMeetingsActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.AddAttendanceActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.RegisteredAttendancesActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.StatisticsActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.StatisticTotalYearActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.StatisticsIndividualElderYearActivity" />
+        <activity android:name=".br.com.softpeach.www.eqm.screens.StatisticTotalMonthsActivity"></activity>
+    </application>
+
+</manifest>
